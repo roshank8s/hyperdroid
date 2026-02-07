@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">HyperDroid</string>
+
+    <!-- Setup Wizard -->
+    <string name="setup_welcome_title">Welcome to HyperDroid</string>
+    <string name="setup_welcome_description">Run full Linux virtual machines on your Android device with near-native performance using hardware acceleration.</string>
+    <string name="setup_avf_supported">Your device supports hardware virtualization!</string>
+    <string name="setup_avf_not_supported">Your device does not support hardware virtualization.</string>
+
+    <string name="setup_developer_mode_title">Enable Developer Mode</string>
+    <string name="setup_developer_mode_description">Go to Settings → About Phone → Tap \"Build Number\" 7 times to enable Developer Options.</string>
+
+    <string name="setup_wireless_debug_title">Enable Wireless Debugging</string>
+    <string name="setup_wireless_debug_description">Go to Settings → Developer Options → Enable \"Wireless Debugging\".</string>
+
+    <string name="setup_install_shizuku_title">Install Shizuku</string>
+    <string name="setup_install_shizuku_description">Shizuku allows HyperDroid to access virtualization features without root access.</string>
+
+    <string name="setup_start_shizuku_title">Start Shizuku</string>
+    <string name="setup_start_shizuku_description">Open Shizuku and follow the instructions to start the service using Wireless Debugging.</string>
+
+    <string name="setup_grant_permission_title">Grant Permission</string>
+    <string name="setup_grant_permission_description">Allow HyperDroid to manage virtual machines on your device.</string>
+
+    <string name="setup_complete_title">You\'re All Set!</string>
+    <string name="setup_complete_description">HyperDroid is ready. Create your first virtual machine and start exploring.</string>
+
+    <string name="setup_get_started">Get Started</string>
+    <string name="setup_continue">Continue</string>
+    <string name="setup_open_settings">Open Settings</string>
+    <string name="setup_install">Install</string>
+    <string name="setup_open_shizuku">Open Shizuku</string>
+    <string name="setup_grant">Grant Permission</string>
+    <string name="setup_finish">Start Using HyperDroid</string>
+    <string name="setup_retry">Retry</string>
+
+    <!-- Home -->
+    <string name="home_no_vms_title">No Virtual Machines Yet</string>
+    <string name="home_no_vms_description">Tap the + button to create your first virtual machine.</string>
+    <string name="home_new_vm">New VM</string>
+
+    <!-- Create VM -->
+    <string name="create_vm_title">Create Virtual Machine</string>
+    <string name="create_vm_name_label">VM Name</string>
+    <string name="create_vm_name_hint">e.g. My Debian Server</string>
+    <string name="create_vm_os_type">Operating System</string>
+    <string name="create_vm_cpu_cores">CPU Cores: %d</string>
+    <string name="create_vm_memory">Memory: %s</string>
+    <string name="create_vm_disk_size">Disk Size: %d GB</string>
+    <string name="create_vm_networking">Networking</string>
+    <string name="create_vm_image_optional">OS Image (Optional)</string>
+    <string name="create_vm_image_required">OS Image (Required)</string>
+    <string name="create_vm_button">Create VM</string>
+
+    <!-- VM Card -->
+    <string name="vm_status_stopped">Stopped</string>
+    <string name="vm_status_starting">Starting</string>
+    <string name="vm_status_running">Running</string>
+    <string name="vm_status_paused">Paused</string>
+    <string name="vm_status_error">Error</string>
+    <string name="vm_delete_confirm_title">Delete VM?</string>
+    <string name="vm_delete_confirm_message">This will permanently delete \"%s\" and all its data.</string>
+    <string name="vm_delete_confirm_yes">Delete</string>
+    <string name="vm_delete_confirm_no">Cancel</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_rerun_setup">Re-run Setup Wizard</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version</string>
+</resources>

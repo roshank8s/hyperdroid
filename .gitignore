@@ -1,0 +1,24 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.apk
+*.aab
+/app/build
+/app/release
+*.jks
+*.keystore
+
+# Claude Code
+.claude/
+plan.md
+
+# Raw disk images (use .tar.xz from vms/ instead)
+*.img
+*.raw
